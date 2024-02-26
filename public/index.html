@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="x-icon" href="/images/spotify-logo.png">
+</head>
+<body>
+    <!--NAVBAR DIV-->
+    <div class="bg-[#121212] h-24 flex">
+        <div class="ml-12 flex items-center">
+            <img src="/images/spotify-logo.png" class="h-8 ">
+            <p class="text-white font-semibold text-2xl ml-1 tracking-tighter">Spotify</p>
+        </div>
+    </div>
+
+    <!--BACKGROUND-->
+    <div class="flex flex-col items-center justify-center h-[300%] bg-gradient-to-b from-[#2A2A2A] to-black">
+
+        <!--CARD DIV-->
+        <div class="bg-gradient-to-b from-black to-[#121212] w-7/12 mt-7 rounded-3xl flex items-center flex-col">
+
+            <!--LOGIN-->
+            <div class="text-white text-5xl font-bold tracking-tighter mt-20 h-16">
+                Log in to Spotify
+            </div>
+
+            <div class="mt-10 flex flex-col items-center ">
+
+                <button class=" border border-slate-500	 rounded-full flex flex-row items-center py-2 pr-16 pl-8 h-12 w-full">
+                    <img  class="mr-9 h-7" src="/images/google-logo.png">
+                    <p class="font-semibold text-white">Continue with Google</p>
+                </button>
+
+                <button class=" mt-2 border border-slate-500	 rounded-full flex flex-row items-center py-2 pr-14 pl-8 h-12 w-full">
+                    <img  class="mr-8 h-6" src="/images/facebook-logo.png">
+                    <p class="font-semibold text-white">Continue with Facebook</p>
+                </button>
+
+                <button class=" mt-2 border border-slate-500	 rounded-full flex flex-row items-center py-2 pr-16 pl-8 h-12 w-full">
+                    <img  class="mr-12 h-6" src="/images/apple-logo.png">
+                    <p class="font-semibold text-white">Continue with Apple</p>
+                </button>
+
+                <button class="px-12 mt-2 border border-slate-500 rounded-full flex flex-row items-center py-2 h-12 w-full">
+                    <p class="font-semibold text-white">Continue with phone number</p>
+                </button>
+
+            </div>
+            <div class="border-slate-700 border-b w-2/3 mt-10"></div>
+
+            <div class="flex flex-col">
+                
+                <div class="h-20 w-80 mt-8 text-sm">
+                    <p class="text-white font-bold ">Email or username</p>
+                    <input class=" bg-black border rounded-lg py-3  border-slate-500 mt-2  pr-28 pl-4 w-full text-white font-semibold text-base" placeholder="Email or username" type="text">
+                </div>
+
+                <div class="h-20 w-80 mt-4 text-sm">
+                    <p class="text-white font-bold ">Password</p>
+                    <input class=" bg-black border rounded-lg py-3  border-slate-500 mt-2  pr-28 pl-4 w-full text-white font-semibold text-base" placeholder="Password" type="text">
+                </div>
+                <div>
+                    <label class="mt-4 inline-flex items-center cursor-pointer">
+                        <input type="checkbox" value="" class="sr-only peer" checked>
+                        <div class="relative w-7 h-4 bg-[#727272] rounded-full peer peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-[#ffffff] dark:bg-[#] peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-black after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-black after:border-black after:border after:rounded-full after:h-3 after:w-3 after:transition-all dark:border-gray-600 peer-checked:bg-[#1ED760]"></div>
+                        <span class="ms-3 text-sm font-bold text-gray-900 dark:text-white">Remember me</span>
+                    </label>
+                </div>
+                <div>
+                    <button class="w-full bg-[#1ED760] py-3 mt-7 rounded-full font-bold">
+                        Log In
+                    </button>
+                </div>
+                <div class="text-white flex justify-center mt-7 underline">
+                    <div>
+                        Forgot your password?
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="border-slate-700 border-b w-2/3 mt-8"></div>
+
+            <div class="flex flex-row my-11 ">
+                <div class="text-[#A7A7A7] ">
+                    Don't have an account?
+                </div>
+                <div class="text-white underline ml-2">
+                    Sign up for Spotify
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-[#121212] w-full mt-9 p-7 text-center text-[#A7A7A7] text-xs">
+            This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.
+        </div>
+
+    </div>
+</body>
+</html>
