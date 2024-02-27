@@ -12,7 +12,7 @@
     <div class="bg-[#121212] h-24 flex">
         <div class="ml-12 flex items-center ">
             <img src="spotify-white.png" class="h-9">
-            <p class="text-white font-semibold text-2xl ml-1 tracking-tighter">Spotify</p>
+            <p class="text-white font-semibold text-2xl ml-1 hover:cursor-default tracking-tighter">Spotify</p>
         </div>
     </div>
 
@@ -28,53 +28,64 @@
             </div>
 
             <div class="mt-10 flex flex-col items-center ">
-
-                <button class=" border border-[#727272]	 rounded-full flex flex-row items-center py-2 pr-16 pl-8 h-12 w-full">
+                <!--Google Login-->
+                <button class=" border border-[#727272] hover:border-[#ffffff] hover:duration-150 rounded-full flex flex-row items-center py-2 pr-16 pl-8 h-12 w-full">
                     <img  class="mr-9 h-7" src="google-logo.png">
                     <p class="font-semibold text-white">Continue with Google</p>
                 </button>
 
-                <button class=" mt-2 border border-[#727272]	 rounded-full flex flex-row items-center py-2 pr-14 pl-8 h-12 w-full">
+                <!--Facebook Login-->
+                <button class=" mt-2 border border-[#727272] hover:border-[#ffffff] hover:duration-150 rounded-full flex flex-row items-center py-2 pr-14 pl-8 h-12 w-full">
                     <img  class="mr-8 h-6" src="facebook-logo.png">
                     <p class="font-semibold text-white">Continue with Facebook</p>
                 </button>
 
-                <button class=" mt-2 border border-[#727272]	 rounded-full flex flex-row items-center py-2 pr-16 pl-8 h-12 w-full">
+                <!--Apple Login-->
+                <button class=" mt-2 border border-[#727272] hover:border-[#ffffff] hover:duration-150 rounded-full flex flex-row items-center py-2 pr-16 pl-8 h-12 w-full">
                     <img  class="mr-12 h-6" src="apple-logo.png">
                     <p class="font-semibold text-white">Continue with Apple</p>
                 </button>
 
-                <button class="px-12 mt-2 border border-[#727272] rounded-full flex flex-row items-center py-2 h-12 w-full">
+                <!--Phone number-->
+                <button class="px-12 mt-2 border border-[#727272] hover:border-[#ffffff] hover:duration-150 rounded-full flex flex-row items-center py-2 h-12 w-full">
                     <p class="font-semibold text-white">Continue with phone number</p>
                 </button>
 
             </div>
+
+            <!--line-->
             <div class="border-[#292929] border-b w-2/3 mt-10"></div>
 
+            <!--Input Text-->
             <div class="flex flex-col">
                 
                 <div class="h-20 w-80 mt-8 text-sm">
                     <p class="text-white font-bold ">Email or username</p>
-                    <input class=" bg-black border rounded-lg py-3 placeholder:text-[#A7A7A7]  border-[#727272] mt-2  pr-28 pl-4 w-full text-white font-semibold text-base" placeholder="Email or username" type="text">
+                    <input class=" bg-black border rounded-lg py-3 placeholder:text-[#A7A7A7] hover:border-[#ffffff] hover:duration-150  border-[#727272] mt-2  pr-28 pl-4 w-full text-white font-semibold text-base" placeholder="Email or username" type="text">
                 </div>
 
                 <div class="h-20 w-80 mt-4 text-sm">
                     <p class="text-white font-bold ">Password</p>
-                    <input class=" bg-black border rounded-lg py-3  border-[#727272] mt-2  pr-28 pl-4 w-full text-white placeholder:text-[#A7A7A7] font-semibold text-base" placeholder="Password" type="password">
+                    <input class=" bg-black border rounded-lg py-3 hover:border-[#ffffff] hover:duration-150  border-[#727272] mt-2  pr-28 pl-4 w-full text-white placeholder:text-[#A7A7A7] font-semibold text-base" placeholder="Password" type="password">
                 </div>
+
+                <!--Remember me-->
                 <div>
                     <label class="mt-4 inline-flex items-center cursor-pointer">
                         <input type="checkbox" value="" class="sr-only peer" checked>
                         <div class="relative w-7 h-4 bg-[#727272] rounded-full peer peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-[#ffffff] dark:bg-[#] peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-black after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-black after:border-black after:border after:rounded-full after:h-3 after:w-3 after:transition-all dark:border-gray-600 peer-checked:bg-[#1ED760]"></div>
-                        <span class="ms-3 text-sm font-bold text-gray-900 dark:text-white">Remember me</span>
+                        <span class="ms-3 text-sm font-bold text-gray-900 dark:text-white hover:cursor-default">Remember me</span>
                     </label>
                 </div>
+
+                <!--Button-->
                 <div>
-                    <button class="w-full bg-[#1ED760] py-3 mt-7 rounded-full font-bold">
+                    <button class="w-full bg-[#1ED760] py-3 mt-7 rounded-full font-bold hover:bg-[#12ab48]">
                         Log In
                     </button>
                 </div>
-                <div class="text-white flex justify-center mt-7 underline">
+
+                <div class="text-white flex justify-center mt-7 underline hover:text-[#1ED760]">
                     <div>
                         Forgot your password?
                     </div>
@@ -88,7 +99,7 @@
                 <div class="text-[#A7A7A7] ">
                     Don't have an account?
                 </div>
-                <div class="text-white underline ml-2">
+                <div class="text-white underline ml-2 hover:text-[#1ED760]">
                     Sign up for Spotify
                 </div>
             </div>

@@ -1016,6 +1016,97 @@ video {
   content: var(--tw-content);
 }
 
+.hover\:size-1:hover {
+  width: 0.25rem;
+  height: 0.25rem;
+}
+
+.hover\:size-5:hover {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.hover\:size-28:hover {
+  width: 7rem;
+  height: 7rem;
+}
+
+.hover\:w-10:hover {
+  width: 2.5rem;
+}
+
+.hover\:w-28:hover {
+  width: 7rem;
+}
+
+.hover\:w-40:hover {
+  width: 10rem;
+}
+
+.hover\:w-80:hover {
+  width: 20rem;
+}
+
+.hover\:w-72:hover {
+  width: 18rem;
+}
+
+.hover\:cursor-default:hover {
+  cursor: default;
+}
+
+.hover\:cursor-wait:hover {
+  cursor: wait;
+}
+
+.hover\:border-\[\#ffffff\]:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.hover\:bg-\[\#1ED760\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 215 96 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-\[\#19c053\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(25 192 83 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-\[\#12ab48\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(18 171 72 / var(--tw-bg-opacity));
+}
+
+.hover\:px-1:hover {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.hover\:py-1:hover {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.hover\:py-4:hover {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.hover\:text-\[\#1ED760\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(30 215 96 / var(--tw-text-opacity));
+}
+
+.hover\:duration-75:hover {
+  transition-duration: 75ms;
+}
+
+.hover\:duration-150:hover {
+  transition-duration: 150ms;
+}
+
 .peer:checked ~ .peer-checked\:bg-\[\#1ED760\] {
   --tw-bg-opacity: 1;
   background-color: rgb(30 215 96 / var(--tw-bg-opacity));
