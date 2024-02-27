@@ -621,12 +621,20 @@ video {
   margin-top: 2.25rem;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
 
 .inline-flex {
   display: inline-flex;
+}
+
+.hidden {
+  display: none;
 }
 
 .h-12 {
@@ -663,6 +671,18 @@ video {
 
 .h-\[300\%\] {
   height: 300%;
+}
+
+.h-9 {
+  height: 2.25rem;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-28 {
+  height: 7rem;
 }
 
 .w-2\/3 {
@@ -717,6 +737,10 @@ video {
   border-radius: 0.5rem;
 }
 
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
 .border {
   border-width: 1px;
 }
@@ -733,6 +757,21 @@ video {
 .border-slate-700 {
   --tw-border-opacity: 1;
   border-color: rgb(51 65 85 / var(--tw-border-opacity));
+}
+
+.border-\[\#575757\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(87 87 87 / var(--tw-border-opacity));
+}
+
+.border-\[\#727272\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(114 114 114 / var(--tw-border-opacity));
+}
+
+.border-\[\#292929\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(41 41 41 / var(--tw-border-opacity));
 }
 
 .bg-\[\#121212\] {
@@ -796,6 +835,16 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .pl-4 {
@@ -874,8 +923,33 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-gray-700 {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+
 .underline {
   text-decoration-line: underline;
+}
+
+.placeholder\:text-\[\#727272\]::-moz-placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(114 114 114 / var(--tw-text-opacity));
+}
+
+.placeholder\:text-\[\#727272\]::placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(114 114 114 / var(--tw-text-opacity));
+}
+
+.placeholder\:text-\[\#A7A7A7\]::-moz-placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(167 167 167 / var(--tw-text-opacity));
+}
+
+.placeholder\:text-\[\#A7A7A7\]::placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(167 167 167 / var(--tw-text-opacity));
 }
 
 .after\:absolute::after {
